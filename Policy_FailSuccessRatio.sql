@@ -1,6 +1,8 @@
 ----Total policy success/fail counts
---SELECT  [PolicyResult],count(*)   FROM [PBM].[policy].[v_PolicyHistory_LastEvaluation]
---  GROUP BY [PolicyResult]
+SELECT [PolicyResult]
+      , COUNT(*)
+FROM [PBM].[policy].[v_PolicyHistory_LastEvaluation]
+GROUP BY [PolicyResult]
 
 --Failed policy count per category
 SELECT count(*), [EvaluatedPolicy], *
