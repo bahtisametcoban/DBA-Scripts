@@ -1,4 +1,4 @@
-﻿----Total policy success/fail count
+﻿----Total policy success/fail counts
 
 --SELECT  [PolicyResult],count(*)   FROM [PBM].[policy].[v_PolicyHistory_LastEvaluation]
 --  GROUP BY [PolicyResult]
