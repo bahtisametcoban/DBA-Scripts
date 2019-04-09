@@ -10,6 +10,7 @@ SELECT [policy_id]
       , [modified_by]
       , [date_modified]
       , [is_system]
+      , *
 FROM [msdb].[dbo].[syspolicy_policies] a
     left join [msdb].[dbo].[syspolicy_policy_categories] b
     on a.policy_category_id=b.policy_category_id
