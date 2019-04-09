@@ -31,4 +31,3 @@ FROM [PBM].[policy].[v_PolicyHistory_LastEvaluation]
 WHERE PolicyResult='FAIL'
   --AND EvaluatedPolicy='OLA_UserDBDiffBackup Check'
   AND EvaluatedPolicy='Compatibility Level is Optimal'
---  AND EvaluatedServer='SG-SCCM-02.sg.flowtraders.local'
